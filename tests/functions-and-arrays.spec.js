@@ -83,6 +83,7 @@ describe('Calculate the sum of array of numbers', () => {
   });
 });
 
+
 describe('Bonus: Calculate the sum', () => {
   it('should declare a function named sum', () => {
     expect(typeof sum).toBe('function');

@@ -1,19 +1,89 @@
 // Iteration #1: Find the maximum
-function maxOfTwoNumbers() {}
+function maxOfTwoNumbers( num1,num2 ) {
 
+  if (num1 > num2) {
+    return num1
+  }
+  
+    else if(num1 < num2) {
+      return num2;
+    }
 
+    else {
+      return num1
+    }
+}
+
+maxOfTwoNumbers()
 
 // Iteration #2: Find longest word
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
-function findLongestWord() {}
+function findLongestWord() {
+
+if (words=[]) {
+  return null
+}
+
+else if ( words.length === 0){
+  return words [0]
+}
+
+
+
+/*
+ {
+    let words = ['a', 'zab', '12abc', '$$abcd', 'abcde', 'ironhack'];
+    for (let i = 0; i < 10; i++) {
+      words = shuffle(words);
+      expect(findLongestWord(words)).toBe('ironhack');
+    }
+  });*/  
+
+
+
+}
+  const theLongestWord = ""
+
+  for (let i=0;  )
+
+
+
+
+}
 
 
 
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
-function sumNumbers() {}
+const sumNumbers = []
+
+function sumNumbers() {
+
+
+
+  switch() {
+    case numbers =[]:
+      return 0;
+      break;
+
+    case numbers =[0]:
+      return number [0];
+      break;
+
+    case 
+      return 0;
+      break;
+
+      case 
+
+
+
+  }
+
+
+}
 
 
 
@@ -38,6 +108,9 @@ function averageWordLength() { }
 function avg() {}
 
 // Iteration #5: Unique arrays
+
+// NO ENTIENDO QUÈ HAY QUE HACER
+
 const wordsUnique = [
   'crab',
   'poison',
@@ -59,7 +132,22 @@ function uniquifyArray() {}
 // Iteration #6: Find elements
 const wordsFind = ['machine', 'subset', 'trouble', 'starting', 'matter', 'eating', 'truth', 'disobedience'];
 
-function doesWordExist() {}
+function doesWordExist() {
+
+let wantedWord ="";
+
+for(let i=0; i<wordsFind.length; i++) {
+
+
+
+
+}
+
+
+  return true
+
+}
+
 
 
 
